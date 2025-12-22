@@ -1,7 +1,3 @@
-#if os(tvOS)
-@_exported import TVVLCKit
-#elseif os(iOS) && !targetEnvironment(macCatalyst)
-@_exported import MobileVLCKit
-#elseif os(macOS)
+// VLCKit 4.0 - Unified framework for all Apple platforms
+// No more MobileVLCKit, TVVLCKit - just VLCKit
 @_exported import VLCKit
-#endif
