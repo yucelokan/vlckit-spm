@@ -3,11 +3,11 @@
 
 import PackageDescription
 
-// Official VideoLAN VLCKit 3.7.2 binaries, repackaged as one XCFramework for SPM.
+// Official VideoLAN VLCKit 3.7.4 binaries (libVLC 3.0.24), repackaged as one XCFramework for SPM.
 let vlcBinary = Target.binaryTarget(
     name: "VLCKit-all",
-    url: "https://github.com/yucelokan/vlckit-spm/releases/download/3.7.2/VLCKit-all.xcframework.zip",
-    checksum: "8d70533ab76dbb6e18650f6709630fceebae2837e1335287f96fd269a8bdf614"
+    url: "https://github.com/yucelokan/vlckit-spm/releases/download/3.7.4/VLCKit-all.xcframework.zip",
+    checksum: "65cdf7e321a90a05ac36bee5f6185302dccf79597575d1cbeb4b8e72154d7b22"
 )
 
 let package = Package(
